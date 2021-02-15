@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7ed4165220dca84283616f85fb0e0654cfb7ebbce207f92a7c39509f23c392fd
+-- hash: 8c7fa23ffd421b4d23b293f9a29e4f930d6e4060c00d457fd676225ce0b25216
 
 name:           toolset
 version:        0.1.0.0
@@ -27,7 +27,13 @@ source-repository head
 
 library
   exposed-modules:
+      Appos
+      CorrectAndPrint
+      CorrectWithLexicon
+      CountLexicon
+      DhbbTriples
       Lib
+      NumberAppos
   other-modules:
       Paths_toolset
   hs-source-dirs:
@@ -39,6 +45,7 @@ library
 executable toolset-exe
   main-is: Main.hs
   other-modules:
+      MainPunkt
       Paths_toolset
   hs-source-dirs:
       app
