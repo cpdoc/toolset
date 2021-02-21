@@ -99,4 +99,4 @@ main = do
       (path,_) = getname $ head args
   save path eq diff
 
--- >>> intercalate " " "abc"
+
